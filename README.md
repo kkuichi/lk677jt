@@ -5,3 +5,5 @@
 Fakulta elektrotechniky a informatiky\
 Študijný program: Hospodárska informatika\
 Školiace pracovisko: Katedra kybernetiky a umelej inteligencie*
+
+https://mega.nz/folder/krUSnbaI#hgn61KQfOquD--DgjMZoFw
