@@ -35,7 +35,7 @@ Cieľom práce bolo navrhnúť a porovnať viaceré modely strojového učenia, 
 ## Dáta a modely
 
 Pre veľkosť súborov sú všetky snímky a natrénované modely uložené na externom úložisku:  
-🔗 https://mega.nz/folder/krUSnbaI#hgn61KQfOquD--DgjMZoFw
+https://mega.nz/folder/krUSnbaI#hgn61KQfOquD--DgjMZoFw
 
 Dostupné priečinky:
 
@@ -49,4 +49,10 @@ Dostupné priečinky:
   `A32,64.keras`, `B32,64,128.keras`, `C32,64,128,256.keras`,  
   `D16,32,64,128.keras`, `E32,64,128.keras`, `Z32,64,128.keras`
 
-> ⚠️ **Poznámka:** Pred použitím je potrebné všetky `.zip` súbory manuálne rozbaliť do príslušných priečinkov, aby skripty mohli správne pracovať s obrázkami.
+## Požiadavky
+- Pred použitím je potrebné všetky `.zip` súbory manuálne rozbaliť do príslušných priečinkov, aby skripty mohli správne pracovať s obrázkami.
+- Projekt bol vyvíjaný a testovaný s nasledovnými verziami knižníc:
+  - `numpy` – 1.26.4  
+  - `albumentations` – 1.4.20  
+  - `tensorflow` – 2.10.0  
+  - `keras` – 2.10.0
