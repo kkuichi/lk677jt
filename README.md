@@ -28,13 +28,13 @@ Cieľom práce bolo navrhnúť a porovnať viaceré modely strojového učenia, 
 
 - [`Nasadenie.ipynb`](https://github.com/kkuichi/lk677jt/blob/main/Nasadenie.ipynb)  
   Notebook zameraný na nasadenie najúspešnejšieho modelu (model B) na nové dáta zo stanice v Novom Zélande. Obsahuje:
-  - Načítanie a spracovanie nových snímok  
-  - Klasifikáciu a automatické ukladanie obrázkov podľa kategórie  
-  - Vizualizáciu rozdelenia výsledkov klasifikácie pomocou stĺpcového grafu   
+  - načítanie a spracovanie nových snímok,  
+  - klasifikáciu a automatické ukladanie obrázkov podľa kategórie,  
+  - vizualizáciu rozdelenia výsledkov klasifikácie pomocou stĺpcového grafu.   
 
 ## Dáta a modely
 
-Pre veľkosť súborov sú všetky dáta a natrénované modely uložené na externom úložisku:  
+Pre veľkosť súborov sú všetky snímky a natrénované modely uložené na externom úložisku:  
 🔗 https://mega.nz/folder/krUSnbaI#hgn61KQfOquD--DgjMZoFw
 
 Dostupné priečinky:
@@ -49,4 +49,4 @@ Dostupné priečinky:
   `A32,64.keras`, `B32,64,128.keras`, `C32,64,128,256.keras`,  
   `D16,32,64,128.keras`, `E32,64,128.keras`, `Z32,64,128.keras`
 
-> ⚠️ **Poznámka:** Pred použitím je potrebné všetky `.zip` súbory manuálne rozbaliť do príslušných priečinkov, aby skripty mohli správne pracovať s dátami a modelmi.
+> ⚠️ **Poznámka:** Pred použitím je potrebné všetky `.zip` súbory manuálne rozbaliť do príslušných priečinkov, aby skripty mohli správne pracovať s obrázkami.
