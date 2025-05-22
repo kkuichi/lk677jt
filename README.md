@@ -10,9 +10,9 @@ Rok: 2024/2025*
 ## Popis projektu
 
 Táto bakalárska práca sa venuje automatickej klasifikácii celooblohových snímok nočnej oblohy do troch kategórií podľa úrovne oblačnosti:
-- `0_cloudy` – zamračená obloha  
-- `1_partly` – čiastočne zamračená obloha  
-- `2_clear` – jasná obloha  
+- `0_cloudy` – zamračená obloha,  
+- `1_partly` – čiastočne zamračená obloha,  
+- `2_clear` – jasná obloha.  
 
 Cieľom práce bolo navrhnúť a porovnať viaceré modely strojového učenia, so zameraním na konvolučné neurónové siete, a použiť ich na filtrovanie nevhodných snímok pre ďalšie spracovanie v oblasti kozmickej fyziky.
 
@@ -20,11 +20,11 @@ Cieľom práce bolo navrhnúť a porovnať viaceré modely strojového učenia, 
 
 - [`BP_v2.ipynb`](https://github.com/kkuichi/lk677jt/blob/main/BP_v2.ipynb)  
   Hlavný Jupyter notebook, ktorý obsahuje:
-  - Načítanie a prípravu datasetu  
-  - Rozdelenie dát na trénovaciu, validačnú a testovaciu množinu  
-  - Tréning základných referenčných modelov: rozhodovací strom, lineárna regresia a náhodný les  
-  - Tréning a vyhodnotenie šiestich modelov konvolučných neurónových sietí (modely A, B, C, D, E, Z)  
-  - Vizualizáciu priebehu trénovania a maticu zámen pre jednotlivé modely  
+  - načítanie a prípravu datasetu, 
+  - rozdelenie dát na trénovaciu, validačnú a testovaciu množinu,  
+  - tréning základných referenčných modelov: rozhodovací strom, lineárna regresia a náhodný les,  
+  - tréning a vyhodnotenie šiestich modelov konvolučných neurónových sietí (modely A, B, C, D, E, Z),  
+  - vizualizáciu priebehu trénovania a maticu zámen pre jednotlivé modely.  
 
 - [`Nasadenie.ipynb`](https://github.com/kkuichi/lk677jt/blob/main/Nasadenie.ipynb)  
   Notebook zameraný na nasadenie najúspešnejšieho modelu (model B) na nové dáta zo stanice v Novom Zélande. Obsahuje:
@@ -40,9 +40,9 @@ Pre veľkosť súborov sú všetky dáta a natrénované modely uložené na ext
 Dostupné priečinky:
 
 - **data**  
-  Obsahuje štyri `.zip` archívy:
-  - `0_cloudy.zip`, `1_partly.zip`, `2_clear.zip` – trénovacie a testovacie snímky zo stanice Leoncito  
-  - `mt_5727_2019_all (2).zip` – neroztriedené snímky z Nového Zélandu, použité pri nasadení modelu  
+  Obsahuje štyri `.zip` súbory:
+  - `0_cloudy.zip`, `1_partly.zip`, `2_clear.zip` – snímky zo stanice El Leoncito v Argentíne,  
+  - `mt_5727_2019_all (2).zip` – neroztriedené snímky z Nového Zélandu, použité pri nasadení modelu.  
 
 - **Modely**  
   Obsahuje šesť predtrénovaných modelov vo formáte `.keras`:  
