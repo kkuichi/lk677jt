@@ -18,7 +18,7 @@ Cieľom práce bolo navrhnúť a porovnať viaceré modely strojového učenia, 
 
 ## Štruktúra repozitára
 
-- **BP_v2.ipynb**  
+- [`BP_v2.ipynb`](https://github.com/kkuichi/lk677jt/blob/main/BP_v2.ipynb)  
   Hlavný Jupyter notebook, ktorý obsahuje:
   - Načítanie a prípravu datasetu  
   - Rozdelenie dát na trénovaciu, validačnú a testovaciu množinu  
@@ -26,11 +26,11 @@ Cieľom práce bolo navrhnúť a porovnať viaceré modely strojového učenia, 
   - Tréning a vyhodnotenie šiestich modelov konvolučných neurónových sietí (modely A, B, C, D, E, Z)  
   - Vizualizáciu priebehu trénovania a maticu zámen pre jednotlivé modely  
 
-- **Nasadenie.ipynb**  
-  Skript pre nasadenie najúspešnejšieho modelu (model B) na nové dáta zo stanice v Novom Zélande. Obsahuje:
+- [`Nasadenie.ipynb`](https://github.com/kkuichi/lk677jt/blob/main/Nasadenie.ipynb)  
+  Notebook zameraný na nasadenie najúspešnejšieho modelu (model B) na nové dáta zo stanice v Novom Zélande. Obsahuje:
   - Načítanie a spracovanie nových snímok  
-  - Klasifikáciu a ukladanie obrázkov do priečinkov podľa predpovedanej kategórie  
-  - Grafické zobrazenie rozdelenia výstupov podľa tried  
+  - Klasifikáciu a automatické ukladanie obrázkov podľa kategórie  
+  - Vizualizáciu rozdelenia výsledkov klasifikácie pomocou stĺpcového grafu   
 
 ## Dáta a modely
 
